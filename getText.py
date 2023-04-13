@@ -63,4 +63,4 @@ if __name__ == '__main__':
     imPath = 'img.png'
     text = getTextFromImage(imPath)
     print(text)
-    # print(is_color_image(imPath))
+    # print(is_color_image(imPath)) walao
