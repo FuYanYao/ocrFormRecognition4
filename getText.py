@@ -10,7 +10,7 @@ def is_color_image(url):
   width = im.size[0]
   height = im.size[1]
   oimage_color_type = False
-  is_color = []
+  # is_color = []
   for x in range(width):
     for y in range(height):
       r, g, b = pix.getpixel((x, y))
@@ -63,4 +63,4 @@ if __name__ == '__main__':
     imPath = 'img.png'
     text = getTextFromImage(imPath)
     print(text)
-    # print(is_color_image(imPath)) walao
+    # print(is_color_image(imPath))
